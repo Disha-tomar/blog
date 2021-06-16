@@ -9,7 +9,7 @@ body {
 .top-container {
   background-color: rgb(225, 247, 255);
   position: relative;
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 h1 {
@@ -39,21 +39,44 @@ hr {
   border: dotted #e2e2e2 6px;
   border-bottom: none;
   width: 4%;
+  margin-bottom: 50px;
+}
+
+.nav-bar {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 400px;
+  margin: 0 0 0 20px;
+}
+
+.profile-pic-top {
+  position: absolute;
+  width: 50px;
+}
+
+.link {
+  position: relative;
+  left: 60px;
+  top: 20px;
+}
+
+.link:hover {
+  color: #ffa64c;
 }
 
 .balloon-top {
-  width: 5%;
+  width: 10%;
   position: absolute;
   right: 300px;
-  top: 100px;
+  top: 20px;
 }
 
 .balloon-bottom {
-  width: 8%;
+  width: 15%;
   position: absolute;
 
-  left: 300px;
-  bottom: 350px;
+  left: 250px;
+  bottom: 400px;
   /* left: 80%; */
 }
 
